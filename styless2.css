@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 16px; /* kalau kamu butuh padding */
+  box-sizing: border-box;
+}
+
+.app {
+  padding-bottom: 70px;
+  /* ruang untuk nav bawah */
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 20px;
+  background-color: white;
+}
+
+.menu-item {
+  background: #e8f5e9;
+  padding: 20px 10px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.menu-item:hover {
+  background: #c8e6c9;
+}
+
+.icon {
+  font-size: 30px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #498c8a;
+  border-top: 1px solid #ddd;
+  /*display: flex;*/
+  justify-content: space-around;
+  /*padding: 10px ;*/
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.nav-item i {
+  display: block;
+  font-size: 20px;
+}
+
+.nav-item.active {
+  color: #42f2f7;
+  font-weight: bold;
+}
+
+.judul-section {
+  text-align: left;       /* agar teks tidak center */
+  margin: 20px 0;
+  padding-left: 20px;     /* geser teks ke kanan dari tepi kiri */
+  color: #333;
+}
+
+.page {
+  padding-bottom: 150px ; /* beri ruang di bawah agar tidak ketutupan navbar */
+}
+
+body {
+  padding-bottom: 100px;
+}
+
+.checkout-btn {
+  position: fixed;
+  bottom: 20px;  /* jarak dari bawah */
+  right: 20px;   /* jarak dari kanan */
+  padding: 10px 20px;
+  background-color: white;
+  color: #498c8a;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 999;  /* biar gak ketutup elemen lain */
+}
+
+table {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 14px; /* Ukuran font isi tabel dikecilkan */
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+table, th, td {
+  border: 1px dashed #888;
+}
+
+th, td {
+  padding: 6px;
+  text-align: left;
+}
+
+.total-row {
+  background-color: #d4edda;
+  font-weight: bold;
+  font-size: 15px; /* Ukuran baris total sedikit lebih besar */
+}
+
+.total-row td {
+  border-top: 2px solid #28a745;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+

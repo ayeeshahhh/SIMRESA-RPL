@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+}
+
+.menu {
+    background: #ff4b2b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+    background: white;
+    margin: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.info {
+    flex: 1;
+    padding: 10px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.controls button {
+    width: 25px;
+    height: 25px;
+    background: #ff4b2b;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.bill {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+}
